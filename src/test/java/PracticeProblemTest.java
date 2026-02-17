@@ -24,7 +24,7 @@ public class PracticeProblemTest {
    public void q1Test1()
    {
       InputStream originalIn = System.in;
-      String data = "Helen";
+      String data = "Helen\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -38,7 +38,7 @@ public class PracticeProblemTest {
    public void q1Test2()
    {
       InputStream originalIn = System.in;
-      String data = "Gary";
+      String data = "Gary\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -52,7 +52,7 @@ public class PracticeProblemTest {
    public void q2Test1()
    {
       InputStream originalIn = System.in;
-      String data = "0";
+      String data = "0\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -66,7 +66,7 @@ public class PracticeProblemTest {
    public void q2Test2()
    {
       InputStream originalIn = System.in;
-      String data = "3";
+      String data = "3\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -81,7 +81,7 @@ public class PracticeProblemTest {
    public void q3Test1()
    {
       InputStream originalIn = System.in;
-      String data = "1";
+      String data = "1\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -95,7 +95,7 @@ public class PracticeProblemTest {
    public void q3Test2()
    {
       InputStream originalIn = System.in;
-      String data = "2.1";
+      String data = "2.1\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -109,7 +109,7 @@ public class PracticeProblemTest {
    public void q4Test1()
    {
       InputStream originalIn = System.in;
-      String data = "Hello\nWorld\n0";
+      String data = "Hello\nWorld\n0\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -123,7 +123,7 @@ public class PracticeProblemTest {
    public void q4Test2()
    {
       InputStream originalIn = System.in;
-      String data = "Kalisz\nMr.\n99";
+      String data = "Kalisz\nMr.\n99\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -137,7 +137,7 @@ public class PracticeProblemTest {
    public void q5Test1()
    {
       InputStream originalIn = System.in;
-      String data = "BigglesWorth\n25";
+      String data = "BigglesWorth\n25\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -151,7 +151,7 @@ public class PracticeProblemTest {
    public void q5Test2()
    {
       InputStream originalIn = System.in;
-      String data = "Sparky\n0";
+      String data = "Sparky\n0\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
