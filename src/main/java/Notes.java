@@ -21,7 +21,7 @@ class Notes {
 
 		//These are the functions that allow us to get input
 		// input.nextInt(); //Integers
-		// input.nextDouble(); //Doubles
+		//input.nextDouble(); //Doubles
 		// input.nextLine(); //Strings
 
 
@@ -69,3 +69,4 @@ class Notes {
   
 	}
 }
+ 

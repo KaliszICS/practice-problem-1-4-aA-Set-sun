@@ -1,24 +1,11 @@
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 import java.io.*;
+import java.util.Scanner;
 
 public class PracticeProblemTest {
 
-   InputStream originalIn = System.in;
-   PrintStream originalOut = System.out;
-   ByteArrayOutputStream bos = new ByteArrayOutputStream();
-
-   @BeforeEach
-   public void setUp() {
-      System.setOut(new PrintStream(bos));
-   }
-
-   @AfterEach
-   public void tearDown() {
-      System.setOut(originalOut);
-      System.setIn(originalIn);
-   }
-
+   
 
    @Test
    public void q1Test1()
