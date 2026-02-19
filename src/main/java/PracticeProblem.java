@@ -30,7 +30,7 @@ public class PracticeProblem {
 		name = input.nextLine();
 
 		System.out.println(name);
-		input.nextLine(); //clear the scanner
+		// input.nextLine(); //clear the scanner
 
 
 	}
@@ -44,7 +44,7 @@ public class PracticeProblem {
 		System.out.print("Input a whole number: ");
 		number = input.nextInt();
 		input.nextLine(); //scanner cleared
-		System.out.println(number);
+		System.out.println(number * 2 + 2);
 
 
 	}
@@ -59,6 +59,8 @@ public class PracticeProblem {
 		double num2;
 		System.out.print("Input a radius: ");
 		num2 = input.nextDouble();
+		System.out.println(2 * 3.14 * num2);
+		//2piR
 		num2 = 3.14 * (num2 * num2);
 		input.nextLine(); //clear scanner
 		System.out.println(num2);
@@ -115,9 +117,8 @@ public class PracticeProblem {
 	age = age + 3;
 
 	System.out.print(name);
-	System.out.print(age);
-	System.out.print(iq);
-	input.nextLine(); //clear scanner
+	System.out.println(age);
+	System.out.print(iq+"\n");
 
 
 	}
